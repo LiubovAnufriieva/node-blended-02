@@ -4,6 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "getFilesInfo": "node src/scripts/getFilesInfo",
+    "createFiles": "node src/scripts/createFiles",
+    "groupByCategory": "node src/scripts/groupByCategory",
+    "addIdToProduct": "node src/scripts/addIdToProduct",
     "createProducts": "node src/scripts/generateProducts",
     "getProductsByCategory": "node src/scripts/getProductsByCategory",
     "getTotalPrice": "node src/scripts/getTotalPrice",
